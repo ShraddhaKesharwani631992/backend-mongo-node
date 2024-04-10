@@ -1,0 +1,32 @@
+{
+  "name": "backend-mongo-node",
+  "version": "1.0.0",
+  "description": "Backend projects with node aand mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShraddhaKesharwani631992/backend-mongo-node.git"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "js",
+    "mongo",
+    "express"
+  ],
+  "author": "Shraddha kesharwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShraddhaKesharwani631992/backend-mongo-node/issues"
+  },
+  "homepage": "https://github.com/ShraddhaKesharwani631992/backend-mongo-node#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  }
+}
