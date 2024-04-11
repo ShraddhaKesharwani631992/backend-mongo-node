@@ -1,7 +1,7 @@
 {
-  "name": "backend-mongo-node",
+  "name": "first-production-app-backend",
   "version": "1.0.0",
-  "description": "Backend projects with node aand mongo",
+  "description": "First full fledged app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,24 +9,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ShraddhaKesharwani631992/backend-mongo-node.git"
+    "url": "git+https://github.com/ShraddhaKesharwani631992/first-production-app-backend.git"
   },
   "keywords": [
-    "backend",
-    "node",
-    "js",
-    "mongo",
-    "express"
+    "nodejs",
+    "mongodb",
+    "data-modeling",
+    "javascript",
+    "react"
   ],
-  "author": "Shraddha kesharwani",
+  "author": "Shraddha Kesharwani",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ShraddhaKesharwani631992/backend-mongo-node/issues"
+    "url": "https://github.com/ShraddhaKesharwani631992/first-production-app-backend/issues"
   },
-  "homepage": "https://github.com/ShraddhaKesharwani631992/backend-mongo-node#readme",
+  "homepage": "https://github.com/ShraddhaKesharwani631992/first-production-app-backend#readme",
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "mongoose": "^8.3.1"
+    "express": "^4.19.2"
   }
 }
