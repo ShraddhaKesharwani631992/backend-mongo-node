@@ -1,0 +1,21 @@
+/* First approach mention in index.js and 2nd approach write below function inside DB index.js and import in entry file to
+make it modular and to maintain seperation of concern.
+
+const app = express();
+const connectMongoDB = async () => {
+  try {
+    await mongoose.connect(`${process.env.MONGODB_URL}/${DB_NAME}`);
+    app.on("error", (error) => {
+      console.log("App not able to connect to db", error);
+      throw error;
+    });
+
+    app.listen(port, () => console.log("App listens at port", port));
+  } catch (error) {
+    console.log("Error:", error);
+    throw error;
+  }
+};
+
+connectMongoDB();
+*/

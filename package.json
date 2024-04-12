@@ -2,10 +2,12 @@
   "name": "first-production-app-backend",
   "version": "1.0.0",
   "description": "First full fledged app",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node -r dotenv/config src/index.js",
+    "dev": "nodemon -r dotenv/config src/index.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +27,13 @@
   },
   "homepage": "https://github.com/ShraddhaKesharwani631992/first-production-app-backend#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }
