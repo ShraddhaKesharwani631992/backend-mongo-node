@@ -8,15 +8,6 @@
 # MongoDB atlas provides online service where they provide data base
 
 
-
-
-
-
-
-
-
-
-
 # NOTE
 # 1. IIFE (Immediate invoke function execution) always starts with ; ex - ;(() => {})() to avoid any issue further
 

@@ -19,3 +19,19 @@ const connectMongoDB = async () => {
 
 connectMongoDB();
 */
+
+
+/* asyncHandler not taken approach---------
+
+const asynHandler = (cbFunc) => async (req, res, next) => {
+  try {
+    await cbFunc(req, res, next);
+  } catch (error) {
+    res.status(error.code || 500).json({
+      success: false,
+      message: error?.message,
+    });
+  }
+};
+
+*/
