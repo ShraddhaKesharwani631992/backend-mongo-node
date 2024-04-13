@@ -7,6 +7,11 @@
 
 # MongoDB atlas provides online service where they provide data base
 
+# Generate random string throught this command - 
+`node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`
+
+# Access token has less expiry than refresh token and we will not store access token. We just store refresh token in DB
+
 
 # NOTE
 # 1. IIFE (Immediate invoke function execution) always starts with ; ex - ;(() => {})() to avoid any issue further
