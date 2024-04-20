@@ -1,5 +1,5 @@
 export const asyncHandler = (cbFunc) => {
-  (req, res, next) => {
+  return (req, res, next) => {
     Promise.resolve(cbFunc(req, res, next)).catch((error) => next(error));
   };
 };

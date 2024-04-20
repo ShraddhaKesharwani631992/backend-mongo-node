@@ -1,5 +1,4 @@
 // Extending standard nodejs Error
-
 class ApiError extends Error {
   constructor(
     statusCode,
